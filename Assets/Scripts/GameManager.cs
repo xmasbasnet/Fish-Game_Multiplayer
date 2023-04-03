@@ -2,15 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using FishNet.Object;
-
+using FishNet;
 
 public class GameManager : NetworkBehaviour
 {
     public static GameManager instance { set; get; }
     public Transform ProjectileParent;
+    public Transform CoinParent;
+
     Camera Cam;
     CanonController controller;
 
+    
 
     private void Awake()
     {
@@ -22,20 +25,14 @@ public class GameManager : NetworkBehaviour
         //controller = GameObject.FindGameObjectWithTag("Cannon").GetComponent<CanonController>();
 
         //print(controller.gameObject.name);
+        
+        
     }
 
-  
 
-    //public override void OnStartClient() {
-    //    base.OnStartClient();
-    //    if (base.IsOwner)
-    //    {
-            
-    //    }
 
-        
-    //}
 
-   
+
+    
 
 }

@@ -7,6 +7,9 @@ public class ProjectileController : NetworkBehaviour
 {
 
     private Rigidbody2D body;
+    int PlayerID;
+    Vector2 PlayerPos;
+    CanonController canonController;
 
 
     private void Awake() {
@@ -14,7 +17,11 @@ public class ProjectileController : NetworkBehaviour
         //StartShoot(30);
     }
 
-    public void StartShoot(float speed) {
+    public void StartShoot(float speed, int id, Vector2 pos,CanonController c) {
+        PlayerID = id;
+        PlayerPos = pos;
+        canonController = c;
+
         body.velocity = transform.up * speed;
         StartCoroutine(DisableProjectile());
     }
@@ -26,7 +33,7 @@ public class ProjectileController : NetworkBehaviour
         if (collision.transform.tag == "Fish")
         {
             print("Hit a FISH");
-            HitAFish(collision.transform.GetComponent<FishController>());
+            HitAFish(collision.transform.GetComponent<FishController>(), collision.ClosestPoint(transform.position));
 
             body.velocity = Vector2.zero;
             gameObject.SetActive(false);
@@ -40,8 +47,8 @@ public class ProjectileController : NetworkBehaviour
         ServerManager.Despawn(gameObject);
     }
 
-    void HitAFish(FishController f) {
-        f.GetDamage(1,0);
+    void HitAFish(FishController f,Vector2 contactPoint) {
+        f.GetDamage(1, PlayerID, PlayerPos,canonController, contactPoint);
     }
 
 }

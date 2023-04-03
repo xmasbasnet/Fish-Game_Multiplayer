@@ -33,15 +33,17 @@ public class FishController : NetworkBehaviour
         yield return new WaitForSeconds(30f);
         ServerManager.Despawn(gameObject);
     }
-    //[ServerRpc(RequireOwnership = false)]
-    public void GetDamage(float dmg, int ID) {
+    [ServerRpc(RequireOwnership = false)]
+    public void GetDamage(float dmg, int ID, Vector2 playerPos,CanonController canon, Vector2 contactPoint) {
         FishHealth -= dmg;
 
         if (FishHealth<=0)
         {
 
-            print("Fish killed by : Player " + ID);
+            print("Fish killed by : Player " + ID + "\n PlayerPos : " + playerPos);
+            canon.SpawnCoins(10, contactPoint, playerPos);
             StopAllCoroutines();
+            //GameManager.instance.SpawnCoin(5,transform.position, playerPos);
             ServerManager.Despawn(gameObject);
 
         }

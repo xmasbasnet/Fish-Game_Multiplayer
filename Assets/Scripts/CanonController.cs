@@ -25,6 +25,8 @@ public class CanonController : NetworkBehaviour
 
     Camera Cam;
 
+    public CoinSpawner coinSpawner;
+
     public override void OnStartClient()
     {
         base.OnStartClient();
@@ -51,6 +53,7 @@ public class CanonController : NetworkBehaviour
             Vector3 c = Cam.transform.position;
             c.x = transform.position.x;
             Cam.transform.position = c;
+            //coinSpawner = GetComponent<CoinSpawner>();
         }
     }
 
@@ -166,7 +169,7 @@ public class CanonController : NetworkBehaviour
         print(NetworkObject.OwnerId + " Shot");
 
         ServerManager.Spawn(go);
-        go.GetComponent<ProjectileController>().StartShoot(ProjectileSpeed);
+        go.GetComponent<ProjectileController>().StartShoot(ProjectileSpeed,NetworkObject.ObjectId,transform.position,this);
 
     }
 
@@ -180,5 +183,7 @@ public class CanonController : NetworkBehaviour
     //    ProjectileDamage = 1;
     //}
 
-
+    public void SpawnCoins(int amount, Vector2 _location, Vector2 playerPos) {
+        coinSpawner.SpawnCoins(amount, _location, playerPos);
+    }
 }
