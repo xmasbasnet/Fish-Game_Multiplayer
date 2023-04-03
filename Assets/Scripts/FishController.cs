@@ -9,7 +9,7 @@ public class FishController : NetworkBehaviour
     private Rigidbody2D body;
     [SerializeField] float MoveSpeed = 5;
 
-    [SyncVar] public float FishHealth = 10;
+    [SyncVar] public int FishHealth = 10;
 
 
 
@@ -33,20 +33,21 @@ public class FishController : NetworkBehaviour
         yield return new WaitForSeconds(30f);
         ServerManager.Despawn(gameObject);
     }
-    [ServerRpc(RequireOwnership = false)]
-    public void GetDamage(float dmg, int ID, Vector2 playerPos,CanonController canon, Vector2 contactPoint) {
+    public int GetDamage(int dmg) {
         FishHealth -= dmg;
 
         if (FishHealth<=0)
         {
 
-            print("Fish killed by : Player " + ID + "\n PlayerPos : " + playerPos);
-            canon.SpawnCoins(10, contactPoint, playerPos);
+            //print("Fish killed by : Player " + ID + "\n PlayerPos : " + playerPos);
+            //canon.SpawnCoins(10, contactPoint, playerPos);
             StopAllCoroutines();
             //GameManager.instance.SpawnCoin(5,transform.position, playerPos);
+            gameObject.SetActive(false);
             ServerManager.Despawn(gameObject);
 
         }
+        return FishHealth;
     }
 
 }

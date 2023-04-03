@@ -26,6 +26,9 @@ public class CanonController : NetworkBehaviour
     Camera Cam;
 
     public CoinSpawner coinSpawner;
+    public GameObject Coin;
+
+
 
     public override void OnStartClient()
     {
@@ -54,6 +57,8 @@ public class CanonController : NetworkBehaviour
             c.x = transform.position.x;
             Cam.transform.position = c;
             //coinSpawner = GetComponent<CoinSpawner>();
+
+            GameManager.instance.SetCannon(this);
         }
     }
 
@@ -111,7 +116,7 @@ public class CanonController : NetworkBehaviour
 
         if (Input.GetMouseButtonDown(0))
         {
-            Shoot(transform.rotation, transform.position + transform.up * 2.25f);
+            Shoot(transform.rotation, transform.position + transform.up );
 
         }
     }
@@ -133,7 +138,7 @@ public class CanonController : NetworkBehaviour
             Quaternion rot = Quaternion.AngleAxis(angle, Vector3.forward);
             transform.rotation = rot;
 
-            Vector2 BulletPos = transform.position + transform.up * 2.25f;
+            Vector2 BulletPos = transform.position + transform.up ;
             // Rotate the object to face the mouse position on the y-axis
 
             Shoot(rot, BulletPos);
@@ -166,24 +171,92 @@ public class CanonController : NetworkBehaviour
         //go.transform.rotation = ;
 
         //yield return new WaitForEndOfFrame();
-        print(NetworkObject.OwnerId + " Shot");
+        //print(NetworkObject.OwnerId + " Shot");
 
         ServerManager.Spawn(go);
         go.GetComponent<ProjectileController>().StartShoot(ProjectileSpeed,NetworkObject.ObjectId,transform.position,this);
-
-    }
-
-    [ServerRpc]
-    void NotifyServer() {
-        //NetworkObject.Spawn(go);
+        //SpawnCoin(10, Vector2.zero, transform.position);
     }
 
     //[ServerRpc]
-    //public void UpdateDmg() {
+    //void NotifyServer() {
+    //    //NetworkObject.Spawn(go);
+    //}
+
+    //[ServerRpc]
+    //public void UpdateDmg()
+    //{
     //    ProjectileDamage = 1;
     //}
 
-    public void SpawnCoins(int amount, Vector2 _location, Vector2 playerPos) {
-        coinSpawner.SpawnCoins(amount, _location, playerPos);
+    //[ServerRpc]
+    public void SpawnCoins(int amount, Vector2 _location, Vector2 playerPos)
+    {
+
+        SpawnCoin(10, _location, transform.position);
+
+    }
+
+    //[ObserversRpc]
+    void SpawnCoin(int amount, Vector3 _location, Vector2 playerPos)
+    {
+        List<Vector3> targets = new List<Vector3>();
+        List<GameObject> coins = new List<GameObject>();
+
+        float intervals = 360f / amount;
+
+        for (int i = 0; i < amount; i++)
+        {
+            targets.Add(_location + (Quaternion.Euler(0, 0, intervals * i) * Vector3.up));
+            GameObject go = Instantiate(Coin, _location, Quaternion.identity, GameManager.instance.CoinParent);
+            ServerManager.Spawn(go);
+
+            coins.Add(go);
+        }
+
+        StartCoroutine(animateCoins(coins, targets, _location, playerPos));
+    }
+
+    IEnumerator animateCoins(List<GameObject> coins, List<Vector3> targets, Vector3 _location, Vector2 playerPos)
+    {
+        float dur = 0;
+        float duration = 0.2f;
+        while (dur <= duration)
+        {
+            float delta = dur / duration;
+            dur += Time.deltaTime;
+            foreach (var coin in coins)
+            {
+                int index = coins.IndexOf(coin);
+                coin.transform.position = Vector3.Slerp(_location, targets[index], delta * delta);
+            }
+            yield return null;
+        }
+        yield return new WaitForSeconds(0.1f);
+        foreach (var coin in coins)
+        {
+            yield return new WaitForSeconds(0.05f);
+            int index = coins.IndexOf(coin);
+            StartCoroutine(Returnback(coin, targets[index], playerPos));
+        }
+    }
+
+    IEnumerator Returnback(GameObject obj, Vector3 from, Vector3 to)
+    {
+        float dur = 0;
+        float duration = 1f;
+        while (dur <= duration)
+        {
+            float delta = dur / duration;
+            dur += Time.deltaTime;
+
+            if (obj == null) continue;
+            obj.transform.position = Vector3.Lerp(from, to, delta * delta * delta);
+            yield return null;
+        }
+        obj.SetActive(false);
+        ServerManager.Despawn(obj);
+
+        //ObjectPool.ReturnObj(obj);
     }
 }

@@ -29,10 +29,16 @@ public class GameManager : NetworkBehaviour
         
     }
 
+    public void SpawnCoin() {
+        controller.SpawnCoins(10, Vector2.zero, transform.position);
+
+    }
+
+    public void SetCannon(CanonController c) {
+        controller = c;
+    }
 
 
 
-
-    
 
 }

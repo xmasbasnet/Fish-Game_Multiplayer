@@ -1,0 +1,1684 @@
+fileFormatVersion: 2
+guid: 83398a557d951394ab9626903dc02c37
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8578509182078232726
+    second: LoadingTitle_01.png
+  - first:
+      213: -5108764473053069626
+    second: LoadingTitle_02.png
+  - first:
+      213: 4437103983332092259
+    second: LoadingTitle_03.png
+  - first:
+      213: -3375657292708880021
+    second: LoadingTitle_04.png
+  - first:
+      213: -6890730607639624485
+    second: LoadingTitle_05.png
+  - first:
+      213: 8095139069229117169
+    second: LoadingTitle_06.png
+  - first:
+      213: -8676378563226335274
+    second: LoadingTitle_07.png
+  - first:
+      213: 2883036131229108257
+    second: LoadingTitle_08.png
+  - first:
+      213: 1902910814775658822
+    second: LoadingTitle_09.png
+  - first:
+      213: -1512726695741281395
+    second: LoadingTitle_10.png
+  - first:
+      213: -1281456458445547250
+    second: LoadingTitle_11.png
+  - first:
+      213: -5118786885473611520
+    second: LoadingTitle_12.png
+  - first:
+      213: -3586731451255954515
+    second: LoadingTitle_13.png
+  - first:
+      213: -5297993572782820975
+    second: LoadingTitle_14.png
+  - first:
+      213: -6668822241629358367
+    second: LoadingTitle_15.png
+  - first:
+      213: -5010810629868883527
+    second: LoadingTitle_16.png
+  - first:
+      213: -2324450575360985161
+    second: LoadingTitle_17.png
+  - first:
+      213: -3650831827621379593
+    second: LoadingTitle_18.png
+  - first:
+      213: 7086455872705841240
+    second: LoadingTitle_19.png
+  - first:
+      213: -5479148310860282424
+    second: LoadingTitle_20.png
+  - first:
+      213: 4176068330726065272
+    second: LoadingTitle_21.png
+  - first:
+      213: -8805808025555696
+    second: LoadingTitle_22.png
+  - first:
+      213: 8400926501196307137
+    second: LoadingTitle_23.png
+  - first:
+      213: 69968310993734633
+    second: LoadingTitle_24.png
+  - first:
+      213: 6167767774995822824
+    second: LoadingTitle_25.png
+  - first:
+      213: 4803224261639402289
+    second: LoadingTitle_26.png
+  - first:
+      213: 4689018578766836588
+    second: LoadingTitle_27.png
+  - first:
+      213: -3120757091179573704
+    second: LoadingTitle_28.png
+  - first:
+      213: 2160035407580100341
+    second: LoadingTitle_29.png
+  - first:
+      213: -8816045248623494723
+    second: LoadingTitle_30.png
+  - first:
+      213: -4208107501868882907
+    second: LoadingTitle_31.png
+  - first:
+      213: 2939495566551935138
+    second: Moire_001.jpg
+  - first:
+      213: -2050543974718309596
+    second: Moire_002.jpg
+  - first:
+      213: -6417558492672492146
+    second: Moire_003.jpg
+  - first:
+      213: 8957706137138685279
+    second: Moire_004.jpg
+  - first:
+      213: 8329810756228473735
+    second: Moire_005.jpg
+  - first:
+      213: -6728804773767213851
+    second: Moire_006.jpg
+  - first:
+      213: 4432728407191562324
+    second: Moire_007.jpg
+  - first:
+      213: 8896191057104679285
+    second: Moire_008.jpg
+  - first:
+      213: 8135657473352659968
+    second: Moire_009.jpg
+  - first:
+      213: 3830792202148767803
+    second: Moire_010.jpg
+  - first:
+      213: 6670225726581037666
+    second: Moire_011.jpg
+  - first:
+      213: -7883796918735766457
+    second: Moire_012.jpg
+  - first:
+      213: -2353891764825999113
+    second: Moire_013.jpg
+  - first:
+      213: -3834351679529896927
+    second: Moire_014.jpg
+  - first:
+      213: -6480394578497980075
+    second: Moire_015.jpg
+  - first:
+      213: 8467628888475425959
+    second: Moire_016.jpg
+  - first:
+      213: 5102229724677353065
+    second: Moire_017.jpg
+  - first:
+      213: 4162809040548151770
+    second: Moire_018.jpg
+  - first:
+      213: 5267074121912764247
+    second: Moire_019.jpg
+  - first:
+      213: -6518332741173462977
+    second: Moire_020.jpg
+  - first:
+      213: 357630115764744675
+    second: Moire_021.jpg
+  - first:
+      213: -7876208161950086571
+    second: Moire_022.jpg
+  - first:
+      213: -3095849324335959004
+    second: Moire_023.jpg
+  - first:
+      213: 4814211837960596245
+    second: Moire_024.jpg
+  - first:
+      213: -2440984341025561062
+    second: Moire_025.jpg
+  - first:
+      213: 1559643491793375236
+    second: Moire_026.jpg
+  - first:
+      213: -7777673015941568746
+    second: Moire_027.jpg
+  - first:
+      213: -1917838580923644360
+    second: Moire_028.jpg
+  - first:
+      213: -3574518626075069315
+    second: Moire_029.jpg
+  - first:
+      213: -2284059912278288984
+    second: Moire_030.jpg
+  - first:
+      213: -6828926210091895623
+    second: Moire_031.jpg
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 2
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LoadingTitle_01.png
+      rect:
+        serializedVersion: 2
+        x: 1939
+        y: 4090
+        width: 3
+        height: 3
+      alignment: 9
+      pivot: {x: 83.333336, y: -28.666666}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 698233476acfc0770800000000000000
+      internalID: 8578509182078232726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingTitle_02.png
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 426
+        width: 143
+        height: 440
+      alignment: 9
+      pivot: {x: 0.5314685, y: 0.5068182}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ce398677c50a19b0800000000000000
+      internalID: -5108764473053069626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingTitle_03.png
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 870
+        width: 442
+        height: 144
+      alignment: 9
+      pivot: {x: 0.49321267, y: 0.5347222}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 369eaf56092c39d30800000000000000
+      internalID: 4437103983332092259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingTitle_04.png
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 992
+        width: 442
+        height: 144
+      alignment: 9
+      pivot: {x: 0.49321267, y: 0.5347222}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6161a8c3914721d0800000000000000
+      internalID: -3375657292708880021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingTitle_05.png
+      rect:
+        serializedVersion: 2
+        x: 1796
+        y: 987
+        width: 145
+        height: 442
+      alignment: 9
+      pivot: {x: 0.53103447, y: 0.50678736}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd48ab065053f50a0800000000000000
+      internalID: -6890730607639624485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingTitle_06.png
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 1459
+        width: 444
+        height: 145
+      alignment: 9
+      pivot: {x: 0.49324325, y: 0.53103447}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fea9c4f716b75070800000000000000
+      internalID: 8095139069229117169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingTitle_07.png
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 1311
+        width: 444
+        height: 145
+      alignment: 9
+      pivot: {x: 0.49324325, y: 0.53103447}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d7841a8aaf479780800000000000000
+      internalID: -8676378563226335274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingTitle_08.png
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1166
+        width: 444
+        height: 145
+      alignment: 9
+      pivot: {x: 0.49324325, y: 0.53103447}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 128078c161a920820800000000000000
+      internalID: 2883036131229108257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingTitle_09.png
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1311
+        width: 444
+        height: 144
+      alignment: 9
+      pivot: {x: 0.49324325, y: 0.5347222}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 649c3f1dd4f786a10800000000000000
+      internalID: 1902910814775658822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingTitle_10.png
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 1287
+        width: 444
+        height: 144
+      alignment: 9
+      pivot: {x: 0.49324325, y: 0.5347222}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8b2712c517b10be0800000000000000
+      internalID: -1512726695741281395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingTitle_11.png
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 1433
+        width: 146
+        height: 444
+      alignment: 9
+      pivot: {x: 0.53424656, y: 0.5067568}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e091937f32a573ee0800000000000000
+      internalID: -1281456458445547250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingTitle_12.png
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 2030
+        width: 445
+        height: 145
+      alignment: 9
+      pivot: {x: 0.49213484, y: 0.537931}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 001da6ab27a66f8b0800000000000000
+      internalID: -5118786885473611520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingTitle_13.png
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 1881
+        width: 445
+        height: 145
+      alignment: 9
+      pivot: {x: 0.49213484, y: 0.537931}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da3ea279fbe593ec0800000000000000
+      internalID: -3586731451255954515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingTitle_14.png
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1756
+        width: 445
+        height: 145
+      alignment: 9
+      pivot: {x: 0.49213484, y: 0.537931}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1913aff5aeeb976b0800000000000000
+      internalID: -5297993572782820975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingTitle_15.png
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 1756
+        width: 445
+        height: 145
+      alignment: 9
+      pivot: {x: 0.49213484, y: 0.537931}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e6357111859373a0800000000000000
+      internalID: -6668822241629358367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingTitle_16.png
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 1756
+        width: 445
+        height: 145
+      alignment: 9
+      pivot: {x: 0.49213484, y: 0.537931}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b1f9e1d746067ab0800000000000000
+      internalID: -5010810629868883527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingTitle_17.png
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 1732
+        width: 445
+        height: 145
+      alignment: 9
+      pivot: {x: 0.49213484, y: 0.537931}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b7f7a56484edbfd0800000000000000
+      internalID: -2324450575360985161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingTitle_18.png
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1607
+        width: 445
+        height: 145
+      alignment: 9
+      pivot: {x: 0.49213484, y: 0.537931}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f100f3bbc3a55dc0800000000000000
+      internalID: -3650831827621379593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingTitle_19.png
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 1435
+        width: 444
+        height: 145
+      alignment: 9
+      pivot: {x: 0.49324325, y: 0.537931}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 858cc111216285260800000000000000
+      internalID: 7086455872705841240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingTitle_20.png
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 1608
+        width: 445
+        height: 144
+      alignment: 9
+      pivot: {x: 0.49438202, y: 0.5347222}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c5cd7b14a726f3b0800000000000000
+      internalID: -5479148310860282424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingTitle_21.png
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 1608
+        width: 445
+        height: 144
+      alignment: 9
+      pivot: {x: 0.49438202, y: 0.5347222}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8748fa2650064f930800000000000000
+      internalID: 4176068330726065272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingTitle_22.png
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 1584
+        width: 445
+        height: 144
+      alignment: 9
+      pivot: {x: 0.49438202, y: 0.5347222}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01d2dac0a27b0eff0800000000000000
+      internalID: -8805808025555696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingTitle_23.png
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 1163
+        width: 444
+        height: 144
+      alignment: 9
+      pivot: {x: 0.4954955, y: 0.5347222}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ca98ff8426169470800000000000000
+      internalID: 8400926501196307137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingTitle_24.png
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1018
+        width: 444
+        height: 144
+      alignment: 9
+      pivot: {x: 0.4954955, y: 0.5347222}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ebc052eec398f000800000000000000
+      internalID: 69968310993734633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingTitle_25.png
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 1460
+        width: 445
+        height: 144
+      alignment: 9
+      pivot: {x: 0.4966292, y: 0.5347222}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e83ab5fc10589550800000000000000
+      internalID: 6167767774995822824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingTitle_26.png
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 1164
+        width: 444
+        height: 143
+      alignment: 9
+      pivot: {x: 0.49774775, y: 0.5314685}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 133fd83740b78a240800000000000000
+      internalID: 4803224261639402289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingTitle_27.png
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 1140
+        width: 444
+        height: 143
+      alignment: 9
+      pivot: {x: 0.49774775, y: 0.5314685}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c63ba9ccd8db21140800000000000000
+      internalID: 4689018578766836588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingTitle_28.png
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 1017
+        width: 444
+        height: 143
+      alignment: 9
+      pivot: {x: 0.49774775, y: 0.5314685}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83ec5f5c5f7d0b4d0800000000000000
+      internalID: -3120757091179573704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingTitle_29.png
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1461
+        width: 445
+        height: 142
+      alignment: 9
+      pivot: {x: 0.4988764, y: 0.52816904}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f6f31342ccf9fd10800000000000000
+      internalID: 2160035407580100341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingTitle_30.png
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1315
+        width: 445
+        height: 142
+      alignment: 9
+      pivot: {x: 0.4988764, y: 0.52816904}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db9b6084e8d17a580800000000000000
+      internalID: -8816045248623494723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingTitle_31.png
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 1017
+        width: 444
+        height: 142
+      alignment: 9
+      pivot: {x: 0.5, y: 0.52816904}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 524e276c58cc995c0800000000000000
+      internalID: -4208107501868882907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moire_001.jpg
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3823
+        width: 480
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a8e927c4af2bc820800000000000000
+      internalID: 2939495566551935138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moire_002.jpg
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 3823
+        width: 480
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42bf8968e110b83e0800000000000000
+      internalID: -2050543974718309596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moire_003.jpg
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 3823
+        width: 480
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8df6f67d8040f6a0800000000000000
+      internalID: -6417558492672492146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moire_004.jpg
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 3823
+        width: 480
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f55ec72954a205c70800000000000000
+      internalID: 8957706137138685279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moire_005.jpg
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3549
+        width: 480
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 783e933efbe699370800000000000000
+      internalID: 8329810756228473735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moire_006.jpg
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 3549
+        width: 480
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ec07a085bb7e92a0800000000000000
+      internalID: -6728804773767213851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moire_007.jpg
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 3549
+        width: 480
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 458af603007348d30800000000000000
+      internalID: 4432728407191562324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moire_008.jpg
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 3549
+        width: 480
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5713bb4e1ae957b70800000000000000
+      internalID: 8896191057104679285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moire_009.jpg
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3275
+        width: 480
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 004ff611e59a7e070800000000000000
+      internalID: 8135657473352659968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moire_010.jpg
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 3275
+        width: 480
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b38e9612635b92530800000000000000
+      internalID: 3830792202148767803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moire_011.jpg
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 3275
+        width: 480
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26ad88c35f6619c50800000000000000
+      internalID: 6670225726581037666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moire_012.jpg
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 3275
+        width: 480
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74c7f69f870279290800000000000000
+      internalID: -7883796918735766457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moire_013.jpg
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3001
+        width: 480
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f834dd49eb455fd0800000000000000
+      internalID: -2353891764825999113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moire_014.jpg
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 3001
+        width: 480
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 124b2b57675a9cac0800000000000000
+      internalID: -3834351679529896927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moire_015.jpg
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 3001
+        width: 480
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 559b24827730116a0800000000000000
+      internalID: -6480394578497980075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moire_016.jpg
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 3001
+        width: 480
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7acd9635c9f038570800000000000000
+      internalID: 8467628888475425959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moire_017.jpg
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 2727
+        width: 480
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96e25ddd6e2cec640800000000000000
+      internalID: 5102229724677353065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moire_018.jpg
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 2727
+        width: 480
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad148a154c445c930800000000000000
+      internalID: 4162809040548151770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moire_019.jpg
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 2727
+        width: 480
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 757434af108681940800000000000000
+      internalID: 5267074121912764247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moire_020.jpg
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 2727
+        width: 480
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f38be8258ea3a85a0800000000000000
+      internalID: -6518332741173462977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moire_021.jpg
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 2453
+        width: 480
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e1b32b02be86f400800000000000000
+      internalID: 357630115764744675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moire_022.jpg
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 2453
+        width: 480
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55acee9186612b290800000000000000
+      internalID: -7876208161950086571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moire_023.jpg
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 2453
+        width: 480
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42472d821755905d0800000000000000
+      internalID: -3095849324335959004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moire_024.jpg
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 2453
+        width: 480
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51b2f1be8248fc240800000000000000
+      internalID: 4814211837960596245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moire_025.jpg
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 2179
+        width: 480
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1661eabca1ef1ed0800000000000000
+      internalID: -2440984341025561062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moire_026.jpg
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 2179
+        width: 480
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40018901e77f4a510800000000000000
+      internalID: 1559643491793375236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moire_027.jpg
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 2179
+        width: 480
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61769a19997201490800000000000000
+      internalID: -7777673015941568746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moire_028.jpg
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 2179
+        width: 480
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 836c187c8f77265e0800000000000000
+      internalID: -1917838580923644360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moire_029.jpg
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1905
+        width: 480
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7437c98f32c46ec0800000000000000
+      internalID: -3574518626075069315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moire_030.jpg
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 1905
+        width: 480
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a551fa7c936d40e0800000000000000
+      internalID: -2284059912278288984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moire_031.jpg
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 1905
+        width: 480
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b43e1a0bc7ca31a0800000000000000
+      internalID: -6828926210091895623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Moire_022.jpg: -7876208161950086571
+      Moire_005.jpg: 8329810756228473735
+      Moire_013.jpg: -2353891764825999113
+      LoadingTitle_22.png: -8805808025555696
+      Moire_031.jpg: -6828926210091895623
+      LoadingTitle_26.png: 4803224261639402289
+      Moire_016.jpg: 8467628888475425959
+      Moire_026.jpg: 1559643491793375236
+      LoadingTitle_09.png: 1902910814775658822
+      Moire_015.jpg: -6480394578497980075
+      LoadingTitle_19.png: 7086455872705841240
+      Moire_025.jpg: -2440984341025561062
+      LoadingTitle_06.png: 8095139069229117169
+      LoadingTitle_04.png: -3375657292708880021
+      LoadingTitle_02.png: -5108764473053069626
+      LoadingTitle_17.png: -2324450575360985161
+      Moire_020.jpg: -6518332741173462977
+      LoadingTitle_03.png: 4437103983332092259
+      LoadingTitle_05.png: -6890730607639624485
+      Moire_008.jpg: 8896191057104679285
+      LoadingTitle_15.png: -6668822241629358367
+      LoadingTitle_24.png: 69968310993734633
+      Moire_001.jpg: 2939495566551935138
+      LoadingTitle_21.png: 4176068330726065272
+      Moire_007.jpg: 4432728407191562324
+      Moire_028.jpg: -1917838580923644360
+      Moire_012.jpg: -7883796918735766457
+      LoadingTitle_29.png: 2160035407580100341
+      LoadingTitle_07.png: -8676378563226335274
+      Moire_003.jpg: -6417558492672492146
+      Moire_018.jpg: 4162809040548151770
+      Moire_021.jpg: 357630115764744675
+      Moire_011.jpg: 6670225726581037666
+      Moire_019.jpg: 5267074121912764247
+      Moire_006.jpg: -6728804773767213851
+      LoadingTitle_18.png: -3650831827621379593
+      LoadingTitle_01.png: 8578509182078232726
+      Moire_029.jpg: -3574518626075069315
+      LoadingTitle_25.png: 6167767774995822824
+      LoadingTitle_11.png: -1281456458445547250
+      Moire_002.jpg: -2050543974718309596
+      Moire_004.jpg: 8957706137138685279
+      Moire_009.jpg: 8135657473352659968
+      LoadingTitle_13.png: -3586731451255954515
+      LoadingTitle_12.png: -5118786885473611520
+      LoadingTitle_31.png: -4208107501868882907
+      LoadingTitle_08.png: 2883036131229108257
+      LoadingTitle_14.png: -5297993572782820975
+      LoadingTitle_16.png: -5010810629868883527
+      Moire_010.jpg: 3830792202148767803
+      Moire_030.jpg: -2284059912278288984
+      LoadingTitle_20.png: -5479148310860282424
+      LoadingTitle_23.png: 8400926501196307137
+      LoadingTitle_28.png: -3120757091179573704
+      LoadingTitle_10.png: -1512726695741281395
+      Moire_017.jpg: 5102229724677353065
+      Moire_014.jpg: -3834351679529896927
+      LoadingTitle_30.png: -8816045248623494723
+      Moire_024.jpg: 4814211837960596245
+      Moire_027.jpg: -7777673015941568746
+      Moire_023.jpg: -3095849324335959004
+      LoadingTitle_27.png: 4689018578766836588
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

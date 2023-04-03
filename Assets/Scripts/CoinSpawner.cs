@@ -43,7 +43,6 @@ public class CoinSpawner : NetworkBehaviour
     }
 
 
-    //[ObserversRpc]
     public void SpawnCoin(int amount, Vector3 _location, Vector2 playerPos) {
         List<Vector3> targets = new List<Vector3>();
         List<GameObject> coins = new List<GameObject>();
