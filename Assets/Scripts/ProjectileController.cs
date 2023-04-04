@@ -33,7 +33,8 @@ public class ProjectileController : NetworkBehaviour
         if (collision.transform.tag == "Fish")
         {
             print("Hit a FISH");
-            HitAFish(collision.transform.GetComponent<FishController>(), collision.transform.position);
+            
+            HitAFish(collision.transform.GetComponent<FishController>(), collision.ClosestPoint(transform.position), collision.transform.position);
 
             body.velocity = Vector2.zero;
             gameObject.SetActive(false);
@@ -47,14 +48,14 @@ public class ProjectileController : NetworkBehaviour
         ServerManager.Despawn(gameObject);
     }
 
-    void HitAFish(FishController f,Vector2 contactPoint) {
+    void HitAFish(FishController f,Vector2 contactPoint, Vector2 collisionPos) {
         print(NetworkObject.Owner);
 
         int h =  f.GetDamage(1);
-
+        canonController.SpawnExplosion(contactPoint);
         if (h<=0)
         {
-            canonController.SpawnCoins(10, contactPoint, PlayerPos);
+            canonController.SpawnCoins(10, collisionPos, PlayerPos);
         }
     }
 

@@ -25,9 +25,10 @@ public class CanonController : NetworkBehaviour
 
     Camera Cam;
 
-    public CoinSpawner coinSpawner;
+    //public CoinSpawner coinSpawner;
     public GameObject Coin;
 
+    public GameObject Explosion;
 
 
     public override void OnStartClient()
@@ -258,5 +259,13 @@ public class CanonController : NetworkBehaviour
         ServerManager.Despawn(obj);
 
         //ObjectPool.ReturnObj(obj);
+    }
+
+    public void SpawnExplosion( Vector3 _location)
+    {
+
+        GameObject go = Instantiate(Explosion, _location, Quaternion.identity, GameManager.instance.ExplosionParent);
+        ServerManager.Spawn(go);
+
     }
 }

@@ -9,7 +9,7 @@ public class GameManager : NetworkBehaviour
     public static GameManager instance { set; get; }
     public Transform ProjectileParent;
     public Transform CoinParent;
-
+    public Transform ExplosionParent;
     Camera Cam;
     CanonController controller;
 

@@ -46,3 +46,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Fish
+    uniqueID: 626273201
+    locked: 0
+  - name: Weapon
+    uniqueID: 2577850393
+    locked: 0
