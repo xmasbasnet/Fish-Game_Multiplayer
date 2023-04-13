@@ -13,7 +13,8 @@ public class GameManager : NetworkBehaviour
     Camera Cam;
     CanonController controller;
 
-    
+    public bool AutoShoot = false;
+    public bool Lock = false;
 
     private void Awake()
     {
@@ -22,16 +23,31 @@ public class GameManager : NetworkBehaviour
         Cam = Camera.main;
         Cam.enabled = true;
 
-        //controller = GameObject.FindGameObjectWithTag("Cannon").GetComponent<CanonController>();
-
-        //print(controller.gameObject.name);
-        
-        
+       
     }
 
-    public void SpawnCoin() {
-        controller.SpawnCoins(10, Vector2.zero, transform.position);
+    public void PressedAutoFire() {
+        AutoShoot = !AutoShoot;
+        updateAutoandLock();
+    }
 
+    public void PressedLock()
+    {
+        Lock = !Lock;
+        updateAutoandLock();
+    }
+
+    public void PressedWeapon() {
+
+    }
+
+    public void PressedSpecies()
+    {
+
+    }
+
+    void updateAutoandLock() {
+        controller.SetAutoOrLock(AutoShoot, Lock);
     }
 
     public void SetCannon(CanonController c) {

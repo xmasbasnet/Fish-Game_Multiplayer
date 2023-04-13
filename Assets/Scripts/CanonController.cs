@@ -31,6 +31,11 @@ public class CanonController : NetworkBehaviour
     public GameObject Explosion;
 
 
+    bool AutoShoot = false;
+    bool Lock = false;
+    Transform LockedTarget;
+
+
     public override void OnStartClient()
     {
         base.OnStartClient();
@@ -54,9 +59,9 @@ public class CanonController : NetworkBehaviour
                 Cam.transform.rotation = Quaternion.Euler(0, 0, 0);
 
             }
-            Vector3 c = Cam.transform.position;
-            c.x = transform.position.x;
-            Cam.transform.position = c;
+            //Vector3 c = Cam.transform.position;
+            //c.x = transform.position.x;
+            //Cam.transform.position = c;
             //coinSpawner = GetComponent<CoinSpawner>();
 
             GameManager.instance.SetCannon(this);
@@ -79,11 +84,74 @@ public class CanonController : NetworkBehaviour
             return;
         }
 
+
+
+
+
 #if UNITY_EDITOR
+        if (Lock)
+        {
+
+            if ( Input.GetMouseButtonDown(0))
+            {
+                Ray ray = Cam.ScreenPointToRay(Input.mousePosition);
+                RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction);
+
+                if (hit.collider != null && hit.transform.tag == "Fish")
+                {
+                    Debug.Log("Hit " + hit.collider.gameObject.name);
+                    LockedTarget = hit.transform;
+                    // Do something with the hit object here
+                }
+            }
+            if (LockedTarget)
+            {
+                AutoFire(LockedTarget.position);
+
+            }
+
+
+            return;
+        }
+        else if (AutoShoot)
+        {
+            AutoFire(Vector3.zero);
+            return;
+        }
         EditorControl();
 #endif
 
 #if !UNITY_EDITOR && (UNITY_ANDROID || UNITY_IOS)
+
+if (Lock)
+        {
+
+            if ((Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began))
+            {
+                Ray ray = Cam.ScreenPointToRay(Input.GetTouch(0).position);
+                RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction);
+
+                if (hit.collider != null && hit.transform.tag=="Fish")
+                {
+                    Debug.Log("Hit " + hit.collider.gameObject.name);
+                    LockedTarget = hit.transform;
+                    // Do something with the hit object here
+                }
+            }
+            if (LockedTarget)
+            {
+                AutoFire(LockedTarget.position);
+
+            }
+
+            
+            return;
+        }
+        else if (AutoShoot)
+        {
+             AutoFire(Vector3.zero);
+            return;
+        }
         MobileControl();
 #endif
 
@@ -117,7 +185,7 @@ public class CanonController : NetworkBehaviour
 
         if (Input.GetMouseButtonDown(0))
         {
-            Shoot(transform.rotation, transform.position + transform.up );
+            Shoot(mousePos, transform.position + transform.up );
 
         }
     }
@@ -142,14 +210,20 @@ public class CanonController : NetworkBehaviour
             Vector2 BulletPos = transform.position + transform.up ;
             // Rotate the object to face the mouse position on the y-axis
 
-            Shoot(rot, BulletPos);
+            Shoot(worldPosition, BulletPos);
         }
     }
 
-    void Shoot(Quaternion r,Vector2 p) {
+    void Shoot(Vector3 SP,Vector2 p) {
+        Vector3 direction = SP - transform.position;
 
+        // Calculate the angle between the direction and the y-axis
+        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg - 90;
 
-        SpawnBullets(r,p);
+        Quaternion rot = Quaternion.AngleAxis(angle, Vector3.forward);
+        transform.rotation = rot;
+
+        SpawnBullets(SP, p);
         SetShoot_anim();
 
     }
@@ -162,9 +236,17 @@ public class CanonController : NetworkBehaviour
 
 
     [ServerRpc]
-    void SpawnBullets(Quaternion rot, Vector2 pos) {
+    void SpawnBullets(Vector3 shootPoint, Vector2 pos) {
         //ProjectileDamage  +=1;
         //LookTowardmouse();
+
+        Vector3 direction = shootPoint - transform.position;
+
+        // Calculate the angle between the direction and the y-axis
+        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg - 90;
+
+        Quaternion rot = Quaternion.AngleAxis(angle, Vector3.forward);
+
         GameObject go = Instantiate(Projectile,pos , rot, ProjectileParent);
 
 
@@ -175,7 +257,7 @@ public class CanonController : NetworkBehaviour
         //print(NetworkObject.OwnerId + " Shot");
 
         ServerManager.Spawn(go);
-        go.GetComponent<ProjectileController>().StartShoot(ProjectileSpeed,NetworkObject.ObjectId,transform.position,this);
+        go.GetComponent<ProjectileController>().StartShoot(ProjectileSpeed,NetworkObject.ObjectId,transform.position,this,Lock, LockedTarget);
         //SpawnCoin(10, Vector2.zero, transform.position);
     }
 
@@ -267,5 +349,22 @@ public class CanonController : NetworkBehaviour
         GameObject go = Instantiate(Explosion, _location, Quaternion.identity, GameManager.instance.ExplosionParent);
         ServerManager.Spawn(go);
 
+    }
+
+    public void SetAutoOrLock(bool A, bool L) {
+        AutoShoot = A;
+        Lock = L;
+    }
+
+
+    private float targetTime= 0.2f;
+    private float currentTime;
+    void AutoFire(Vector3 targetPoint) {
+        currentTime += Time.deltaTime;
+        if (currentTime >= targetTime)
+        {
+            currentTime = 0;
+            Shoot(targetPoint, transform.position + transform.up);
+        }
     }
 }

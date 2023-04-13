@@ -61,7 +61,7 @@ MonoBehaviour:
     spread_radius: 2
     rate: 1
     duration: 0
-  FishHealth: 3
+  FishHealth: 30
   speed: 1
   SineSpeed: 0.2
   SineAmount: 10
@@ -90,7 +90,7 @@ MonoBehaviour:
   _initializeOrder: 0
   _defaultDespawnType: 0
   NetworkObserver: {fileID: 0}
-  <PrefabId>k__BackingField: 2
+  <PrefabId>k__BackingField: 9
   <SpawnableCollectionId>k__BackingField: 0
   _scenePathHash: 0
   <SceneId>k__BackingField: 0
